@@ -3,46 +3,71 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Own Cyclades — Boutique Co-Ownership Interest</title>
-  <meta name="description" content="Private, boutique vacation co-ownership concept in the Cyclades. Explore early interest with zero obligation." />
+  <title>Own Cyclades — Boutique Co-Ownership</title>
+  <meta name="description" content="A limited circle of discerning co-owners sharing a boutique property in the Cyclades. Discover how it works." />
   <meta property="og:image" content="https://i0.wp.com/ugoceiphotography.com/wp-content/uploads/2019/07/20190607-X10S6251.jpg?w=1522&ssl=1" />
+
   <style>
     :root{
-      --bg:#0b1320; --text:#eef3fb; --muted:#a9b6cc;
-      --accent:#5ea0ff; --accent2:#7cd1ff;
-      --shadow:0 10px 30px rgba(0,0,0,0.35);
+      --text:#1c1c1c;
+      --muted:#5a5a5a;
+      --accent:#0074d9;
+      --accent2:#009ef5;
+      --card:#ffffff;
+      --shadow:0 10px 30px rgba(0,0,0,0.08);
     }
-    body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:var(--bg);}
+    body{
+      margin:0;
+      font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;
+      color:var(--text);
+      background:#fffdfb;
+      -webkit-font-smoothing:antialiased;
+    }
     a{color:var(--accent);text-decoration:none}
     a:hover{color:var(--accent2)}
     .wrap{max-width:980px;margin:0 auto;padding:24px}
-    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
     .brand h1{margin:0;font-size:22px}
-    .tag{font-size:13px;color:var(--muted)}
+    .tag{font-size:14px;color:var(--muted)}
     .hero{
       position:relative;
       background:url('https://i0.wp.com/ugoceiphotography.com/wp-content/uploads/2019/07/20190607-X10S6251.jpg?w=1522&ssl=1') center/cover no-repeat;
-      border-radius:14px;overflow:hidden;min-height:420px;
-      display:flex;align-items:center;
+      border-radius:16px;overflow:hidden;min-height:420px;
+      display:flex;align-items:end;
+      box-shadow:var(--shadow);
     }
     .overlay{
       position:absolute;inset:0;
-      background:linear-gradient(180deg,rgba(0,0,0,0.55),rgba(0,0,0,0.65));
+      background:linear-gradient(180deg,rgba(255,255,255,0.1),rgba(255,255,255,0.9) 80%);
     }
     .hero-content{
-      position:relative;z-index:2;padding:48px;max-width:620px;
+      position:relative;z-index:2;padding:40px;max-width:600px;
     }
-    .hero h2{font-size:clamp(26px,4.5vw,40px);margin:0 0 14px}
-    .hero p{color:var(--muted);margin:0 0 20px}
+    .hero h2{
+      font-size:clamp(26px,4.5vw,40px);
+      margin:0 0 14px;
+      color:#053351;
+      text-shadow:0 2px 4px rgba(255,255,255,0.5);
+    }
+    .hero p{color:#033;max-width:580px;margin:0 0 20px;font-weight:500}
     .btn{
-      background:linear-gradient(180deg,#5ea0ff,#4e8be0);
-      color:#061426;padding:12px 20px;border-radius:10px;
-      font-weight:700;text-decoration:none;display:inline-block;
-      box-shadow:var(--shadow);
+      background:linear-gradient(180deg,var(--accent2),var(--accent));
+      color:#fff;padding:13px 24px;border-radius:10px;font-weight:600;
+      display:inline-block;box-shadow:var(--shadow);
     }
     .btn:hover{filter:brightness(1.08)}
-    .card{margin-top:24px;padding:20px;background:#111a2e;border-radius:14px;box-shadow:var(--shadow);}
-    footer{margin-top:30px;color:var(--muted);font-size:13px;text-align:center}
+    section.card{
+      background:var(--card);border-radius:16px;padding:28px;margin-top:28px;
+      box-shadow:var(--shadow);
+    }
+    h3{margin-top:0;font-size:22px;color:#053351}
+    ul{list-style:none;margin:16px 0 0 0;padding:0}
+    li{margin:12px 0;padding-left:26px;position:relative}
+    li::before{
+      content:"•";position:absolute;left:6px;color:var(--accent);
+      font-size:22px;line-height:0;
+    }
+    footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
   </style>
 </head>
 <body>
@@ -50,28 +75,24 @@
     <header>
       <div class="brand">
         <h1>Own Cyclades</h1>
-        <div class="tag">Private, boutique co-ownership concept</div>
+        <div class="tag">A boutique co-ownership experience in the Aegean</div>
       </div>
-      <span style="color:var(--muted);font-size:13px">Early Interest · No Obligation</span>
+      <span style="color:var(--muted);font-size:14px">Private · Limited · Well-run</span>
     </header>
 
     <section class="hero">
       <div class="overlay"></div>
       <div class="hero-content">
         <h2>Spend the best weeks in the Cyclades — without buying an entire hotel.</h2>
-        <p>We’re exploring a <strong>small, invitation-only</strong> co-ownership structure for a boutique property in the Cyclades. If that resonates, share your interest below — we’ll follow up privately.</p>
+        <p>A limited circle of co-owners will share an exceptional, character property in the Cyclades. If you appreciate design, discretion, and a well-run experience, join the interest list below.</p>
         <a class="btn" href="https://forms.gle/E1dRgKCXFvS5Y3Px5" target="_blank" rel="noopener">Register Interest</a>
       </div>
     </section>
 
     <section class="card">
-      <h3>Discreet, tasteful, well-run.</h3>
-      <p>Limited co-owners. Fair access to prime weeks. Managed like a boutique retreat, not a timeshare. This is early-stage and purely exploratory — zero commitment required.</p>
-      <p><a class="btn" href="https://forms.gle/E1dRgKCXFvS5Y3Px5" target="_blank" rel="noopener">Open the Interest Form</a></p>
-    </section>
-
-    <footer>© <span id="y"></span> Own Cyclades · All rights reserved.</footer>
-  </div>
-  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
-</body>
-</html>
+      <h3>What to expect</h3>
+      <ul>
+        <li><strong>Intimate scale.</strong> A small group of like-minded co-owners, aligned in taste and stewardship.</li>
+        <li><strong>Prime weeks, fair rotation.</strong> Enjoy predictable access to the best seasons without the hassle of negotiation.</li>
+        <li><strong>Professional management.</strong> Operations, maintenance, and guest experience handled end-to-end.</li>
+        <li><strong>Transpa
