@@ -113,7 +113,12 @@ function gtag_report_conversion(url) {
         <h2>Tired of spending thousands of dollars on hotels that you will never get back, but also don't want to buy and manage a place?</h2>
         <h3>The golden middle: enjoy the full luxury of a hotel in the Cyclades - and at the same time make money without buying and managing an airB&B</h3>
         <p>A limited circle of co-owners will share an exceptional hotel property located near some of most beautiful Agean beaches. Join the interest list below.</p>
-        <a class="btn" href="https://forms.gle/E1dRgKCXFvS5Y3Px5" target="_blank" rel="noopener">Register Interest</a>
+        <a class="btn" href="https://forms.gle/E1dRgKCXFvS5Y3Px5" 
+           target="_blank" 
+           rel="noopener" 
+           onclick="gtag_report_conversion('https://forms.gle/E1dRgKCXFvS5Y3Px5'); return false;">
+           Register Interest
+        </a>
       </div>
     </section>
 
